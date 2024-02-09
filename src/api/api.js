@@ -19,7 +19,7 @@ export default class ImageIp {
     let response = await axios(
       `${BASE_URL}?${searchParams}&q=${this.searchQuery}&page=${this.page}`
     );
-    console.log(response.data);
+
     return response.data;
   }
 

@@ -11,7 +11,9 @@ function createCardImage(data) {
         downloads,
       }) => {
         return `<div class="photo-card">
-  <img src="${webformatURL}" alt="${tags}" loading="lazy" />
+     
+  <img class="gallery__image" src="${webformatURL}" alt="${tags}" loading="lazy" data-action="${largeImageURL}" />
+   </a>
   <div class="info">
     <p class="info-item">
       <b>Likes</b><br>

@@ -1,0 +1,30 @@
+.gallery {
+  display: flex;
+  justify-content: space-around;
+  border-top: 2px solid blue;
+  border-radius: 20px;
+  padding: 10;
+
+  flex-wrap: wrap;
+}
+
+.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
+form {
+  margin-left: 40%;
+  padding: 20px;
+}
+.load-more {
+  color: white;
+  background: #7f113e;
+  border: 1px solid #f5c4ab;
+
+  margin-left: 45%;
+}
+button:hover {
+  border: 1px solid white;
+}
